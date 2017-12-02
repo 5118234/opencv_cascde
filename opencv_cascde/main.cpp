@@ -13,7 +13,7 @@ int main(int argc, char** argv) {
 		return -1;
 	}
 	
-	Mat src = imread("F:/opencv/myimg/test.png");
+	Mat src = imread("test.png");
 	if (src.empty()) {
 		printf("could not load image...\n");
 		return -1;
