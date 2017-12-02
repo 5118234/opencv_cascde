@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv_haar_lbp_image", "op
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv_haar_lbp_video", "opencv_haar_lbp_video\opencv_haar_lbp_video.vcxproj", "{18E54C8A-CE93-4695-8FA4-3CB1C6F64901}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv_cat_image", "opencv_cat_image\opencv_cat_image.vcxproj", "{30143BF0-A071-44D0-BB03-B3B76968D61C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{18E54C8A-CE93-4695-8FA4-3CB1C6F64901}.Release|x64.Build.0 = Release|x64
 		{18E54C8A-CE93-4695-8FA4-3CB1C6F64901}.Release|x86.ActiveCfg = Release|Win32
 		{18E54C8A-CE93-4695-8FA4-3CB1C6F64901}.Release|x86.Build.0 = Release|Win32
+		{30143BF0-A071-44D0-BB03-B3B76968D61C}.Debug|x64.ActiveCfg = Debug|x64
+		{30143BF0-A071-44D0-BB03-B3B76968D61C}.Debug|x64.Build.0 = Debug|x64
+		{30143BF0-A071-44D0-BB03-B3B76968D61C}.Debug|x86.ActiveCfg = Debug|Win32
+		{30143BF0-A071-44D0-BB03-B3B76968D61C}.Debug|x86.Build.0 = Debug|Win32
+		{30143BF0-A071-44D0-BB03-B3B76968D61C}.Release|x64.ActiveCfg = Release|x64
+		{30143BF0-A071-44D0-BB03-B3B76968D61C}.Release|x64.Build.0 = Release|x64
+		{30143BF0-A071-44D0-BB03-B3B76968D61C}.Release|x86.ActiveCfg = Release|Win32
+		{30143BF0-A071-44D0-BB03-B3B76968D61C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
