@@ -10,6 +10,7 @@ String eyefile = "F:/opencv/OpenCV3.2/opencv/build/etc/haarcascades/haarcascade_
 CascadeClassifier face_cascader;
 CascadeClassifier eye_cascader;
 
+/** ¥”…„œÒÕ∑»À¡≥ºÏ≤‚ */
 int main(int argc, char** argv) {
 	if (!face_cascader.load(fileName)) {
 		printf("could not load face feature data...\n");

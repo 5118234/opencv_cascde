@@ -7,6 +7,7 @@ using namespace std;
 String fileName = "F:/opencv/OpenCV3.2/opencv/build/etc/haarcascades/haarcascade_frontalface_alt.xml";
 CascadeClassifier face_classifier;
 
+/** ¥”Õº∆¨»À¡≥ºÏ≤‚ */
 int main(int argc, char** argv) {
 	if (!face_classifier.load(fileName)) {
 		printf("could not load face feature data...\n");
